@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url:  jdbc:mysql://127.0.0.1:3306/sell?userSSL=false
+    username:  root
+    password:  liwanlei
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    open-in-view: true
+  jackson:
+    default-property-inclusion: non_null
+server:
+  port: 9000
+
+webchat:
+  mpAppid:
+  mchId:
+  mchKey:
+  keyPath:
+  mpAppSecrt:
+  notifyUrl:
+
